@@ -26,6 +26,9 @@ The HomePage was improved to support Arabic RTL and different screen sizes.
 The Day 3 Flutter code is available in:
 
 `lib/day3_main.dart`
+
+
+
 ### Day 4 — Navigation & Routes
 
 Improved the application by adding multiple connected screens and organized navigation between them.
@@ -57,3 +60,7 @@ Additional Routes:
 `Home → Simulation`
 
 `Home → Goals`
+
+User Flow:
+
+![Mostathmer User Flow](user_flow.png)
