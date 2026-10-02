@@ -8,17 +8,18 @@ import 'screens/simulation_page.dart';
 import 'screens/goals_page.dart';
 
 void main() {
-  runApp(const Day4App());
+  runApp(const MostathmerApp());
 }
 
-class Day4App extends StatelessWidget {
-  const Day4App({super.key});
+class MostathmerApp extends StatelessWidget {
+  const MostathmerApp({super.key});
 
   @override
   Widget build(BuildContext context) {
     return MaterialApp(
       debugShowCheckedModeBanner: false,
       initialRoute: '/login',
+
       routes: {
         '/login': (context) => const LoginPage(),
         '/home': (context) => const HomePage(),
@@ -27,6 +28,7 @@ class Day4App extends StatelessWidget {
         '/simulation': (context) => const SimulationPage(),
         '/goals': (context) => const GoalsPage(),
       },
+
       builder: (context, child) {
         return Directionality(
           textDirection: TextDirection.rtl,
