@@ -26,3 +26,34 @@ The HomePage was improved to support Arabic RTL and different screen sizes.
 The Day 3 Flutter code is available in:
 
 `lib/day3_main.dart`
+### Day 4 — Navigation & Routes
+
+Improved the application by adding multiple connected screens and organized navigation between them.
+
+Implemented:
+
+- Multiple screens
+- `Navigator`
+- `Navigator.pushNamed`
+- `Navigator.pop`
+- Named Routes
+- Passing data between screens
+- Organized screen files inside the `screens` folder
+- Login screen with dynamic user name
+- Learn, Simulation, Goals, and Course Details screens
+
+File:
+`lib/day4_main.dart`
+
+Screen files:
+`lib/screens/`
+
+Application Flow:
+
+`Login → Home → Learn → Course Details`
+
+Additional Routes:
+
+`Home → Simulation`
+
+`Home → Goals`
